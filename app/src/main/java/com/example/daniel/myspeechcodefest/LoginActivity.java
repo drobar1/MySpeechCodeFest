@@ -23,5 +23,15 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button loginPageToSelectionScreen = (Button) findViewById(R.id.loginButton);
+        loginPageToSelectionScreen.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view2){
+                Intent intent2 = new Intent(LoginActivity.this,SelectionScreen.class);
+                startActivity(intent2);
+            }
+        });
     }
 }
