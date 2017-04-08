@@ -25,7 +25,28 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="35dp"
-        android:layout_marginRight="35dp">
+        android:layout_marginRight="35dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/RegisterDone"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:elevation="9dp"
+            android:text="Done"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#d0f095"
+            app:layout_constraintHorizontal_bias="0.747"
+            app:layout_constraintLeft_toLeftOf="@+id/etCPassword"
+            app:layout_constraintRight_toRightOf="@+id/etCPassword"
+            app:layout_constraintTop_toBottomOf="@+id/etCPassword"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
 
         <EditText
             android:id="@+id/etUsername"
@@ -117,23 +138,23 @@
             app:layout_constraintLeft_toLeftOf="@+id/etPassword" />
 
         <Button
-            android:id="@+id/etRegister"
+            android:id="@+id/BackToLogin"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="10dp"
             android:background="@android:color/holo_orange_dark"
             android:elevation="9dp"
-            android:text="Done"
+            android:text="Back"
             android:textColor="@android:color/background_light"
             android:textColorHint="#d0f095"
+            app:layout_constraintHorizontal_bias="0.238"
             app:layout_constraintLeft_toLeftOf="@+id/etCPassword"
             app:layout_constraintRight_toRightOf="@+id/etCPassword"
             app:layout_constraintTop_toBottomOf="@+id/etCPassword"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintRight_creator="1"
-            tools:layout_constraintTop_creator="1"
-            app:layout_constraintHorizontal_bias="0.498" />
+            tools:layout_constraintTop_creator="1" />
 
         <EditText
             android:id="@+id/editText4"
