@@ -1,24 +1,24 @@
 <words>
-	<wordsWithLetter letter = "A">
-		<word>Avocado</word>
-		<word>Aloe</word>
-		<word>Ant</word>
-		<word>Apple</word>
-		<word>Almond</word>
-	</wordsWithLetter>
-	<letter contains = "R">
+	<wordsWithSound sound = "S">
+		<word>Sun</word>
+		<word>Soup</word>
+		<word>Seed</word>
+		<word>City</word>
+		<word>Sock</word>
+	</wordsWithSound>
+	<wordsWithSound sound = "R">
 		<word>Rain</word>
 		<word>Red</word>
 		<word>Read</word>
 		<word>Rabbit</word>
 		<word>Rice</word>
-	</letter>
-	<letter contains = "Ch">
+	</wordsWithSound>
+	<wordsWithSound sound = "Ch">
 		<word>Calculator</word>
 		<word>Cereal</word>
 		<word>Chair</word>
 		<word>Chocolate</word>
 		<word>Chicken</word>
-	</letter>
+	</wordsWithSound>
 </words>
 
