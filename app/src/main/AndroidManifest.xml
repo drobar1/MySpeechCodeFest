@@ -26,6 +26,9 @@
             android:name=".ProgressPage"
             android:label="@string/title_activity_progress_page"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TestSpeakActivity"
+            android:label="TestSpeakActivity"></activity>
     </application>
 
 </manifest>

@@ -5,8 +5,7 @@ package com.example.daniel.myspeechcodefest;
  */
 
 public class XmlStorageManager {
-    public void loadXml()
-    {
+    public void loadXml() {
 
     }
 }

@@ -6,4 +6,5 @@ package com.example.daniel.myspeechcodefest;
 
 public class WordManager {
 
+    ArrayList<ArrayList<String>> group = new ArrayList<ArrayList<String>>(4);
 }
