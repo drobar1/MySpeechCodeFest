@@ -18,7 +18,7 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/s_sun" />
+        android:src="@drawable/sun" />
 
     <Button
         android:id="@+id/NextButton"
