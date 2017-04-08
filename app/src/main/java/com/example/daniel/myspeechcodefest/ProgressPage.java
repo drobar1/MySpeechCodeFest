@@ -1,22 +1,25 @@
 package com.example.daniel.myspeechcodefest;
 
-import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 public class ProgressPage extends AppCompatActivity {
+
+    TextView editText2;
+    Typeface tf1, tf2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_page);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -27,15 +30,13 @@ public class ProgressPage extends AppCompatActivity {
             }
         });
 
-        Button progressToSelection = (Button) findViewById(R.id.NewSoundButton);
-        progressToSelection.setOnClickListener(new View.OnClickListener(){
+        editText2 = (TextView)findViewById(R.id.editText2);
 
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(ProgressPage.this,SelectionScreen.class);
-                startActivity(intent);
-            }
-        });
+        tf1 = Typeface.createFromAsset(getAssets(), "Adlanta.otf");
+        tf2 = Typeface.createFromAsset(getAssets(), "Adlanta-Light.otf");
+
+        editText2.setTypeface(tf2);
+
     }
 
 }

@@ -8,6 +8,8 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="25dp">
 
+
+
     <android.support.constraint.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -26,47 +28,46 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0">
 
-        <Button
-            android:id="@+id/RegisterDone"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@android:color/holo_green_dark"
-            android:elevation="9dp"
-            android:text="Done"
-            android:textColor="@android:color/background_light"
-            android:textColorHint="#d0f095"
-            app:layout_constraintHorizontal_bias="0.747"
-            app:layout_constraintLeft_toLeftOf="@+id/etCPassword"
-            app:layout_constraintRight_toRightOf="@+id/etCPassword"
-            app:layout_constraintTop_toBottomOf="@+id/etCPassword"
-            tools:layout_constraintLeft_creator="1"
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="156dp"
+            app:srcCompat="@drawable/logo"
+            app:layout_constraintTop_toTopOf="parent"
             tools:layout_constraintRight_creator="1"
-            tools:layout_constraintTop_creator="1" />
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="42dp"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp" />
 
         <EditText
             android:id="@+id/etUsername"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="51dp"
             android:ems="10"
             android:fontFamily="monospace"
             android:hint="Username"
             android:inputType="textPersonName"
             android:paddingBottom="10dp"
             android:singleLine="true"
-            tools:fadingEdge="horizontal"
-            tools:layout_constraintRight_creator="1"
-            tools:layout_constraintBottom_creator="1"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/greeeeeeeen"
             app:layout_constraintBottom_toTopOf="@+id/etPassword"
-            app:layout_constraintRight_toRightOf="@+id/editText3"
-            tools:layout_constraintLeft_creator="1"
-            android:layout_marginBottom="21dp"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="@+id/editText3"
-            app:layout_constraintHorizontal_bias="0.0" />
+            app:layout_constraintRight_toRightOf="@+id/editText3"
+            tools:fadingEdge="horizontal"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
 
         <EditText
             android:id="@+id/etParentEmail"
@@ -94,13 +95,17 @@
             android:inputType="textPassword"
             android:paddingBottom="10dp"
             android:singleLine="true"
-            tools:layout_constraintRight_creator="1"
-            tools:layout_constraintBottom_creator="1"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/greeeeeeeen"
             app:layout_constraintBottom_toTopOf="@+id/etCPassword"
-            app:layout_constraintRight_toRightOf="@+id/etUsername"
-            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="@+id/etUsername"
-            app:layout_constraintHorizontal_bias="0.0" />
+            app:layout_constraintRight_toRightOf="@+id/etUsername"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            android:layout_marginBottom="7dp" />
 
         <EditText
             android:id="@+id/editText3"
@@ -111,44 +116,53 @@
             android:inputType="textPersonName"
             android:paddingBottom="10dp"
             android:singleLine="true"
-            tools:layout_constraintRight_creator="1"
-            tools:layout_constraintBottom_creator="1"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/greeeeeeeen"
             app:layout_constraintBottom_toTopOf="@+id/etUsername"
-            app:layout_constraintRight_toRightOf="@+id/editText4"
-            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="@+id/editText4"
-            app:layout_constraintHorizontal_bias="0.0" />
+            app:layout_constraintRight_toRightOf="@+id/editText4"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
 
         <EditText
             android:id="@+id/etCPassword"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
             android:hint="Confirm Password"
             android:inputType="textPassword"
             android:paddingBottom="10dp"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/greeeeeeeen"
             android:textSize="18sp"
-            tools:layout_constraintRight_creator="1"
-            tools:layout_constraintBottom_creator="1"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/etPassword"
             app:layout_constraintRight_toRightOf="@+id/etPassword"
+            tools:layout_constraintBottom_creator="1"
             tools:layout_constraintLeft_creator="1"
-            android:layout_marginBottom="74dp"
-            app:layout_constraintLeft_toLeftOf="@+id/etPassword" />
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintHorizontal_bias="0.0" />
 
         <Button
-            android:id="@+id/BackToLogin"
+            android:id="@+id/etRegister"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@android:color/holo_orange_dark"
+            android:layout_width="100dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="57dp"
+            android:background="#7dff8800"
             android:elevation="9dp"
-            android:text="Back"
+            android:text="Done"
             android:textColor="@android:color/background_light"
             android:textColorHint="#d0f095"
-            app:layout_constraintHorizontal_bias="0.238"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintLeft_toLeftOf="@+id/etCPassword"
             app:layout_constraintRight_toRightOf="@+id/etCPassword"
             app:layout_constraintTop_toBottomOf="@+id/etCPassword"
@@ -163,13 +177,16 @@
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            tools:layout_constraintRight_creator="1"
-            tools:layout_constraintBottom_creator="1"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/greeeeeeeen"
             app:layout_constraintBottom_toTopOf="@+id/editText3"
-            app:layout_constraintRight_toRightOf="parent"
-            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintHorizontal_bias="0.0" />
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
 
     </android.support.constraint.ConstraintLayout>
 
