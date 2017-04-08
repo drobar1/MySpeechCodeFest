@@ -16,6 +16,25 @@
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="-79dp">
 
+        <Button
+            android:id="@+id/RegisterToLogin"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="8"
+            android:background="@android:color/holo_orange_dark"
+            android:elevation="9dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Back"
+            android:textColorHint="#d0f095"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="410dp"
+            android:layout_alignBaseline="@+id/ButtonToSelection"
+            android:layout_alignBottom="@+id/ButtonToSelection"
+            android:layout_alignLeft="@+id/etCPassword"
+            android:layout_alignStart="@+id/etCPassword" />
+
         <EditText
             android:id="@+id/etUsername"
             android:layout_width="wrap_content"
@@ -76,10 +95,10 @@
             android:layout_alignLeft="@+id/etUsername"
             android:layout_alignStart="@+id/etUsername"
             android:ems="10"
+            android:hint="Full Name"
             android:inputType="textPersonName"
             android:paddingBottom="10dp"
-            android:singleLine="true"
-            android:text="Full Name" />
+            android:singleLine="true" />
 
         <EditText
             android:id="@+id/etCPassword"
@@ -98,22 +117,23 @@
             tools:layout_editor_absoluteY="274dp" />
 
         <Button
-            android:id="@+id/etRegister"
+            android:id="@+id/ButtonToSelection"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:layout_column="0"
-            android:layout_marginBottom="30dp"
             android:layout_row="8"
-            android:background="@android:color/holo_orange_dark"
+            android:background="@android:color/holo_green_dark"
             android:elevation="9dp"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Done"
             android:textColorHint="#d0f095"
             tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="410dp" />
+            tools:layout_editor_absoluteY="410dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/etCPassword"
+            android:layout_alignEnd="@+id/etCPassword"
+            android:layout_marginBottom="45dp" />
 
         <EditText
             android:id="@+id/editText4"
@@ -123,8 +143,8 @@
             android:layout_alignLeft="@+id/editText3"
             android:layout_alignStart="@+id/editText3"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="Email" />
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
     </RelativeLayout>
 
