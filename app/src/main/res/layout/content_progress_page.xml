@@ -13,20 +13,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="97dp" />
+        tools:layout_editor_absoluteY="62dp" />
 
     <RatingBar
         android:id="@+id/ratingBar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="186dp"
+        tools:layout_editor_absoluteY="135dp"
         tools:layout_editor_absoluteX="128dp" />
 
     <RatingBar
         android:id="@+id/ratingBar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="273dp"
+        tools:layout_editor_absoluteY="207dp"
         tools:layout_editor_absoluteX="128dp" />
 
     <TextView
@@ -34,65 +34,55 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CH"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="80dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="R"
-        tools:layout_editor_absoluteY="202dp"
-        tools:layout_editor_absoluteX="64dp" />
+        tools:layout_editor_absoluteY="156dp"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PH"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="290dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp" />
 
     <Button
-        android:id="@+id/RestartButton"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Restart!"
-        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="350dp" />
 
     <Button
-        android:id="@+id/NewSoundButton"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Sounds"
-        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteX="215dp"
         tools:layout_editor_absoluteY="350dp" />
 
-    <Button
-        android:id="@+id/SendProgressButton"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Send progress to parents"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="431dp" />
-
-    <ProgressBar
-        android:id="@+id/ProgressScreenBar"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="67dp"
-        android:layout_height="65dp"
-        tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="135dp"
-        android:layout_height="37dp"
-        android:textSize="20dp"
-        android:text="Your Progress:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="33dp" />
+        android:capitalize="words"
+        android:ems="10"
+        android:inputType="text|textCapCharacters"
+        android:text="Progress"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="2dp" />
 
 </android.support.constraint.ConstraintLayout>

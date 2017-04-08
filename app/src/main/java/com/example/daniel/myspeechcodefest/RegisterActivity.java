@@ -1,17 +1,16 @@
 package com.example.daniel.myspeechcodefest;
 
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class RegisterActivity extends AppCompatActivity {
 
     TextView editText4, editText3, etUsername, etPassword, etCPassword;
-    Typeface tf1, tf2;
+    Typeface tf1, tf2, tf3, tf4, tf5;
+    Button etRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,35 +23,20 @@ public class RegisterActivity extends AppCompatActivity {
         etPassword = (TextView)findViewById(R.id.etPassword);
         etCPassword = (TextView)findViewById(R.id.etCPassword);
 
+        etRegister = (Button)findViewById(R.id.etRegister);
+
         tf1 = Typeface.createFromAsset(getAssets(), "Adlanta.otf");
         tf2 = Typeface.createFromAsset(getAssets(), "Adlanta-Light.otf");
+        tf3 = Typeface.createFromAsset(getAssets(), "Comfortaa-Bold.ttf");
+        tf4 = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
+        tf5 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
 
-        editText4.setTypeface(tf1);
-        editText3.setTypeface(tf1);
-        etUsername.setTypeface(tf1);
-        etPassword.setTypeface(tf1);
-        etCPassword.setTypeface(tf1);
-
-        Button advanceToRegistrationPage = (Button) findViewById(R.id.BackToLogin);
-        advanceToRegistrationPage.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(RegisterActivity.this,LoginActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        Button registrationToSelection = (Button) findViewById(R.id.RegisterDone);
-        registrationToSelection.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(RegisterActivity.this,SelectionScreen.class);
-                startActivity(intent);
-            }
-        });
-
+        editText4.setTypeface(tf5);
+        editText3.setTypeface(tf5);
+        etUsername.setTypeface(tf5);
+        etPassword.setTypeface(tf5);
+        etCPassword.setTypeface(tf5);
+        etRegister.setTypeface(tf3);
 
     }
 }

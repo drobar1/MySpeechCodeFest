@@ -13,7 +13,8 @@ public class LoginActivity extends AppCompatActivity
 {
 
     TextView etEmail, etPassword;
-    Typeface tf1, tf2;
+    Typeface tf1, tf2, tf3, tf4, tf5;
+    Button RegisterButton, loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,14 +41,24 @@ public class LoginActivity extends AppCompatActivity
             }
         });
 
+        RegisterButton = (Button) findViewById(R.id.RegisterButton);
+        loginButton = (Button) findViewById(R.id.loginButton);
+
+
         etEmail = (TextView)findViewById((R.id.editText4));
         etPassword = (TextView)findViewById(R.id.etPassword);
 
         tf1 = Typeface.createFromAsset(getAssets(), "Adlanta.otf");
         tf2 = Typeface.createFromAsset(getAssets(), "Adlanta-Light.otf");
+        tf3 = Typeface.createFromAsset(getAssets(), "Comfortaa-Bold.ttf");
+        tf4 = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
+        tf5 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
 
-        etEmail.setTypeface(tf1);
-        etPassword.setTypeface(tf1);
+
+        etEmail.setTypeface(tf5);
+        etPassword.setTypeface(tf5);
+        RegisterButton.setTypeface(tf3);
+        loginButton.setTypeface(tf3);
 
     }
 }

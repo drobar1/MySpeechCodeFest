@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14187103600",
+    "firebase_url": "https://myspeechcodefest.firebaseio.com",
+    "project_id": "myspeechcodefest",
+    "storage_bucket": "myspeechcodefest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14187103600:android:ce93b2d2850e3cf1",
+        "android_client_info": {
+          "package_name": "com.example.daniel.myspeechcodefest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14187103600-o2nt6kcr94uidoi80a0ifokhedqdi6vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZmS_hJGdStwXbVhuaVZQUXLswVJm5tHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -13,7 +13,10 @@ import java.io.File;
  */
 
 public class XmlStorageManager {
-    public void loadXml() {
+    public void loadUserXml() {
+
+    }
+    public void loadWordXml(){
 
     }
 
