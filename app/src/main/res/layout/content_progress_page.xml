@@ -13,20 +13,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="62dp" />
+        tools:layout_editor_absoluteY="97dp" />
 
     <RatingBar
         android:id="@+id/ratingBar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="135dp"
+        tools:layout_editor_absoluteY="186dp"
         tools:layout_editor_absoluteX="128dp" />
 
     <RatingBar
         android:id="@+id/ratingBar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="207dp"
+        tools:layout_editor_absoluteY="273dp"
         tools:layout_editor_absoluteX="128dp" />
 
     <TextView
@@ -34,57 +34,65 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CH"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="114dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="R"
-        tools:layout_editor_absoluteY="156dp"
-        tools:layout_editor_absoluteX="55dp" />
+        tools:layout_editor_absoluteY="202dp"
+        tools:layout_editor_absoluteX="64dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PH"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="290dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/RestartButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Restart!"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="302dp" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="350dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/NewSoundButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Sounds"
         tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="302dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Progress"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="4dp" />
+        tools:layout_editor_absoluteY="350dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/SendProgressButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Send progress to parents"
         tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="377dp" />
+        tools:layout_editor_absoluteY="431dp" />
+
+    <ProgressBar
+        android:id="@+id/ProgressScreenBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="67dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="135dp"
+        android:layout_height="37dp"
+        android:textSize="20dp"
+        android:text="Your Progress:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="33dp" />
 
 </android.support.constraint.ConstraintLayout>
