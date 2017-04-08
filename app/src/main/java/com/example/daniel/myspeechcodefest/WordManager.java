@@ -8,5 +8,8 @@ import java.util.ArrayList;
 
 public class WordManager {
 
-    //ArrayList<ArrayList<String>> group = new ArrayList<ArrayList<String>>(4);
+    ArrayList<ArrayList<String>> sounds = new ArrayList<ArrayList<String>>();
+
+
 }
+
