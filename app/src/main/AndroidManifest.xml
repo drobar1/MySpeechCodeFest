@@ -21,8 +21,7 @@
         <activity android:name=".RegisterActivity" />
         <activity
             android:name=".SelectionScreen"
-            android:label="@string/title_activity_selection_screen"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_selection_screen"/>
         <activity android:name=".MySpeechFace" />
         <activity
             android:name=".ProgressPage"

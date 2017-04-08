@@ -7,65 +7,10 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.daniel.myspeechcodefest.SelectionScreen">
 
-    <android.support.constraint.ConstraintLayout
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_selection_screen"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" />
 
-        <ToggleButton
-            android:id="@+id/toggleButton"
-            android:layout_width="152dp"
-            android:layout_height="112dp"
-            android:text="ToggleButton"
-            tools:layout_editor_absoluteY="267dp"
-            tools:layout_editor_absoluteX="216dp" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton5"
-            android:layout_width="152dp"
-            android:layout_height="112dp"
-            android:text="ToggleButton"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="155dp" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton16"
-            android:layout_width="152dp"
-            android:layout_height="112dp"
-            android:text="ToggleButton"
-            tools:layout_editor_absoluteX="216dp"
-            tools:layout_editor_absoluteY="383dp" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton19"
-            android:layout_width="152dp"
-            android:layout_height="112dp"
-            android:text="ToggleButton"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="383dp" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton18"
-            android:layout_width="152dp"
-            android:layout_height="112dp"
-            android:text="ToggleButton"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="267dp" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton14"
-            android:layout_width="152dp"
-            android:layout_height="112dp"
-            android:text="ToggleButton"
-            tools:layout_editor_absoluteX="216dp"
-            tools:layout_editor_absoluteY="155dp" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="240dp"
-            android:layout_height="49dp"
-            android:text="Choose what you need help with!"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="106dp" />
-
-    </android.support.constraint.ConstraintLayout>
 </android.support.design.widget.CoordinatorLayout>

@@ -8,7 +8,12 @@ import java.util.ArrayList;
 
 public class User {
     private ArrayList<String> troubleSounds;
-    private String username;        
+    private String username;
+    private int starCount;
+
+    public void addStars(int newStars){
+        starCount += newStars;
+    }
 
     public void setTroubleSounds(ArrayList<String> newTroubleSounds){
         this.troubleSounds = newTroubleSounds;
