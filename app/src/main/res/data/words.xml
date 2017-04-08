@@ -1,25 +1,24 @@
 <words>
 	<wordsWithLetter letter = "A">
-		<word>Aardvark</word>
-		<word>Alphabet</word>
-		<word>Animal</word>
+		<word>Avocado</word>
+		<word>Aloe</word>
+		<word>Ant</word>
 		<word>Apple</word>
-		<word>Also</word>
+		<word>Almond</word>
 	</wordsWithLetter>
 	<letter contains = "R">
-		<word>Run</word>
+		<word>Rain</word>
 		<word>Red</word>
-		<word>Race</word>
+		<word>Read</word>
 		<word>Rabbit</word>
 		<word>Rice</word>
 	</letter>
 	<letter contains = "Ch">
-		<word>Catcher</word>
-		<word>Chin</word>
+		<word>Calculator</word>
+		<word>Cereal</word>
 		<word>Chair</word>
 		<word>Chocolate</word>
 		<word>Chicken</word>
 	</letter>
 </words>
 
-	
