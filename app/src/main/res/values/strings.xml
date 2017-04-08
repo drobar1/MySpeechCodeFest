@@ -92,5 +92,7 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_progress_page">ProgressPage</string>
+    <string name="apple">Apple</string>
+    <string name="title_activity_s_practice">s_practice</string>
 
 </resources>

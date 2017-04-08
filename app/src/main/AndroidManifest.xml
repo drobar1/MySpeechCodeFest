@@ -27,6 +27,10 @@
         <activity
             android:name=".ProgressPage"
             android:label="@string/title_activity_progress_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".s_practice"
+            android:label="@string/title_activity_s_practice"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

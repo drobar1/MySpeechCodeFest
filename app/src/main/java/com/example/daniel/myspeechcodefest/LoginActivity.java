@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity
+{
 
     TextView etEmail, etPassword;
     Typeface tf1, tf2;

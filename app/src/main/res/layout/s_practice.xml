@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sun" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/s_sun" />
+
+    <Button
+        android:id="@+id/NextButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Help"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/HelpButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Next"
+        android:textColor="@android:color/background_dark" />
+
+</LinearLayout>
