@@ -7,18 +7,23 @@ import java.util.ArrayList;
  */
 
 public class User {
-    private ArrayList<String> troubleSounds;
-    private String username;
-    private int starCount;
+    private static ArrayList<String> troubleSounds;
+    private static String username;
+    private static  int starCount;
 
-    public void addStars(int newStars){
+    public static void addStars(int newStars){
         starCount += newStars;
     }
 
-    public void setTroubleSounds(ArrayList<String> newTroubleSounds){
-        this.troubleSounds = newTroubleSounds;
+    public static void addTroubleSound(String newTroubleSound){
+
+        troubleSounds.add(newTroubleSound);
     }
-    public ArrayList<String> getTroubleSounds(){
-        return this.troubleSounds;
+
+    public static void setTroubleSounds(ArrayList<String> newTroubleSounds){
+        troubleSounds = newTroubleSounds;
+    }
+    public static ArrayList<String> getTroubleSounds(){
+        return troubleSounds;
     }
 }

@@ -79,5 +79,6 @@ public class XmlStorageManager extends Activity {
             e.printStackTrace();
         }
         return null;
+        //
     }
 }
