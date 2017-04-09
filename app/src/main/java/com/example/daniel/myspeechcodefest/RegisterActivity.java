@@ -23,7 +23,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button etRegister;
-    private EditText editText4, etPassword;
+    private EditText editText4, editText3, etPassword, etUsername, etCPassword;
+    Typeface tf1, tf2, tf3, tf4, tf5;
     private ProgressDialog progressNote;
     private FirebaseAuth auth;
 
@@ -45,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         String password = etPassword.getText().toString().trim();
         if(TextUtils.isEmpty(email)){
             //Email is empty
-            Toast.makeText(this, "Please enter a email", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter an email", Toast.LENGTH_SHORT).show();
             //Stops function
             return;
         }
