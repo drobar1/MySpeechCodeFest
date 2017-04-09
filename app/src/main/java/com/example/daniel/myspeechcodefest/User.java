@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 
 public class User {
-    private static ArrayList<String> troubleSounds;
+    private static ArrayList<String> troubleSounds = new ArrayList<String>();
     private static String username;
     private static  int starCount;
 
@@ -23,6 +23,7 @@ public class User {
     public static void setTroubleSounds(ArrayList<String> newTroubleSounds){
         troubleSounds = newTroubleSounds;
     }
+
     public static ArrayList<String> getTroubleSounds(){
         return troubleSounds;
     }

@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.daniel.myspeechcodefest.ProgressPage"
-    tools:showIn="@layout/activity_progress_page">
+    tools:showIn="@layout/activity_progress_page"
+    tools:layout_editor_absoluteY="41dp"
+    tools:layout_editor_absoluteX="8dp">
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -14,24 +16,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="35dp"
-        tools:layout_editor_absoluteY="108dp"
-        tools:layout_editor_absoluteX="152dp" />
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="108dp" />
 
     <RatingBar
         android:id="@+id/ratingBar2"
         style="@style/Widget.AppCompat.RatingBar.Indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="171dp"
-        tools:layout_editor_absoluteX="152dp" />
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <RatingBar
         android:id="@+id/ratingBar3"
         style="@style/Widget.AppCompat.RatingBar.Indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="233dp"
-        tools:layout_editor_absoluteX="152dp" />
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,7 +43,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteY="108dp"
-        tools:layout_editor_absoluteX="52dp" />
+        tools:layout_editor_absoluteX="53dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -51,8 +53,8 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginStart="53dp"
-        tools:layout_editor_absoluteY="171dp"
-        tools:layout_editor_absoluteX="53dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -61,8 +63,8 @@
         android:text="PH"
         android:textSize="25sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteY="233dp"
-        tools:layout_editor_absoluteX="52dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <Button
         android:id="@+id/button2"
@@ -75,8 +77,16 @@
         android:textColor="@color/common_google_signin_btn_text_dark_pressed"
         android:textSize="17sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="373dp" />
+        android:layout_marginRight="202dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.725" />
 
     <Button
         android:id="@+id/button3"
@@ -88,8 +98,13 @@
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="17sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="373dp" />
+        android:layout_marginTop="104dp"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar3"
+        app:layout_constraintLeft_toRightOf="@+id/button2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <TextView
         android:id="@+id/textView5"

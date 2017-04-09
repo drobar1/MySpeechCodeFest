@@ -26,10 +26,14 @@ public class ProgressPage extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Email Sent!", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
+
+        ratingBar = new RatingBar(ProgressPage.this);
+        ratingBar2 = new RatingBar(ProgressPage.this);
+        ratingBar3 = new RatingBar(ProgressPage.this);
 
         ratingBar.setRating(4);
         ratingBar2.setRating(2);
@@ -37,7 +41,7 @@ public class ProgressPage extends AppCompatActivity {
 
         textView3 = (TextView)findViewById(R.id.textView3);
         textView4 = (TextView)findViewById(R.id.textView4);
-        textView5 = (TextView)findViewById(R.id.practiceWord);
+        textView5 = (TextView)findViewById(R.id.textView5);
 
         tf1 = Typeface.createFromAsset(getAssets(), "Adlanta.otf");
         tf2 = Typeface.createFromAsset(getAssets(), "Adlanta-Light.otf");
@@ -45,8 +49,8 @@ public class ProgressPage extends AppCompatActivity {
         tf4 = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
         tf5 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
 
-        textView5.setTypeface(tf3);
-        textView5.setTypeface(tf3);
+        textView3.setTypeface(tf3);
+        textView4.setTypeface(tf3);
         textView5.setTypeface(tf3);
 
     }
