@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-
+//For the love of god commit
 public class LoginActivity extends AppCompatActivity
 {
 

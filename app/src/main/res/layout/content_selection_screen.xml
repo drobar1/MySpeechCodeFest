@@ -158,7 +158,7 @@
                     android:text="H"
                     android:textSize="60dp" />
                 <ToggleButton
-                    android:textOn = "R"
+                    android:textOn = "Test"
                     android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
