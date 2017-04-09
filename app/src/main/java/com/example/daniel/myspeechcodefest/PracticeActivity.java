@@ -99,6 +99,7 @@ public class PracticeActivity extends AppCompatActivity{
 
             counter++;
             if(counter == WordManager.troubleWords.size()){
+                counter = 0;
                 Intent intent = new Intent(PracticeActivity.this,ProgressPage.class);
                 startActivity(intent);
             }
