@@ -27,7 +27,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             tools:layout_constraintLeft_creator="1"
-            android:layout_marginBottom="203dp"
+            android:layout_marginBottom="221dp"
             app:layout_constraintLeft_toLeftOf="parent" />
 
         <Button
@@ -63,20 +63,20 @@
             android:textColor="@color/common_google_signin_btn_text_light_focused"
             android:textSize="100sp"
             android:textStyle="bold"
-            tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginTop="66dp"
             tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/practiceImage" />
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/listenButton"
+            android:layout_marginBottom="21dp" />
 
         <Button
             android:id="@+id/helpButton"
             style="@android:style/Widget.Button"
             android:layout_width="0dp"
-            android:layout_height="61dp"
-            android:layout_marginBottom="3dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginTop="22dp"
             android:background="@color/litepurp"
             android:text="\?"
@@ -135,12 +135,13 @@
 
         <ImageView
             android:id="@+id/practiceImage"
-            android:layout_width="154dp"
-            android:layout_height="83dp"
+            android:layout_width="196dp"
+            android:layout_height="154dp"
+            app:srcCompat="@drawable/newnew"
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginTop="85dp"
+            android:layout_marginTop="26dp"
             tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -154,17 +155,6 @@
         android:text="TextView"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="282dp"
-        android:layout_weight="0.84"
-        android:gravity="top|left"
-        android:hint="IMAGE"
-        android:src="@drawable/smallerlogo"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="50dp" />
 
     <Button
         android:id="@+id/button8"

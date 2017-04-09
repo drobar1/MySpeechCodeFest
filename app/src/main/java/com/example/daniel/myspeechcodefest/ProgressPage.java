@@ -16,6 +16,7 @@ public class ProgressPage extends AppCompatActivity {
     TextView textView3, textView4, textView5;
     Typeface tf1, tf2, tf3, tf4, tf5;
     RatingBar ratingBar, ratingBar2, ratingBar3;
+    Button button2, button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +62,12 @@ public class ProgressPage extends AppCompatActivity {
         ratingBar.setRating(4);
         ratingBar2.setRating(2);
         ratingBar3.setRating(1);
+
+        button2 = (Button) findViewById((R.id.restartButton));
+        button3 = (Button) findViewById(R.id.continueButton);
+
+        button3.setTypeface(tf5);
+        button2.setTypeface(tf5);
 
         textView3 = (TextView)findViewById(R.id.textView3);
         textView4 = (TextView)findViewById(R.id.textView4);

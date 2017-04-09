@@ -35,8 +35,6 @@ public class SelectionScreen extends AppCompatActivity {
         });
 
 
-
-
         ssMainMenuButton = (Button) findViewById(R.id.ssMainMenuButton);
         tf3 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
         ssMainMenuButton.setTypeface(tf3);
@@ -46,7 +44,7 @@ public class SelectionScreen extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                buttonToPractice.setBackgroundColor(Color.BLUE);
+                buttonToPractice.setBackgroundColor(Color.LTGRAY);
             }
         });
         final Button buttonToPractice2 = (Button) findViewById(R.id.buttonCh);
@@ -54,7 +52,7 @@ public class SelectionScreen extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                buttonToPractice2.setBackgroundColor(Color.BLUE);
+                buttonToPractice2.setBackgroundColor(Color.LTGRAY);
             }
         });
         final Button buttonToPractice3 = (Button) findViewById(R.id.buttonS);
@@ -62,7 +60,7 @@ public class SelectionScreen extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                buttonToPractice3.setBackgroundColor(Color.BLUE);
+                buttonToPractice3.setBackgroundColor(Color.LTGRAY);
             }
         });
         final Button buttonToPractice4 = (Button) findViewById(R.id.buttonS);
@@ -70,7 +68,7 @@ public class SelectionScreen extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                buttonToPractice3.setBackgroundColor(Color.BLUE);
+                buttonToPractice3.setBackgroundColor(Color.LTGRAY);
             }
         });
     }
