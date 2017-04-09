@@ -84,9 +84,9 @@
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="@+id/button"
-            app:layout_constraintRight_toRightOf="@+id/button"
-            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintLeft_toLeftOf="@+id/skipButton"
+            app:layout_constraintRight_toRightOf="@+id/skipButton"
+            app:layout_constraintTop_toBottomOf="@+id/skipButton"
             app:layout_constraintVertical_bias="0.0"
             tools:layout_constraintBottom_creator="1"
             tools:layout_constraintLeft_creator="1"
@@ -118,7 +118,7 @@
             tools:layout_constraintTop_creator="1" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/skipButton"
             style="@android:style/Widget.Button"
             android:layout_width="149dp"
             android:layout_height="60dp"

@@ -1,11 +1,13 @@
 package com.example.daniel.myspeechcodefest;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -28,6 +30,27 @@ public class ProgressPage extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Email Sent!", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+            }
+        });
+
+
+        Button restartButton = (Button) findViewById(R.id.restartButton);
+        restartButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ProgressPage.this,PracticeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button continueButton = (Button) findViewById(R.id.continueButton);
+        continueButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ProgressPage.this,SelectionScreen.class);
+                startActivity(intent);
             }
         });
 

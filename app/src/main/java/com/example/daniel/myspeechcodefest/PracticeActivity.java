@@ -49,7 +49,7 @@ public class PracticeActivity extends AppCompatActivity{
             }
         });
 
-        button = (Button)findViewById(R.id.button);
+        button = (Button)findViewById(R.id.skipButton);
         listenButton = (Button)findViewById(R.id.listenButton);
         exitButton = (Button)findViewById(R.id.exitButton);
         nextButton = (Button)findViewById(R.id.nextButton);
@@ -72,12 +72,21 @@ public class PracticeActivity extends AppCompatActivity{
             }
         });
 
+        Button skipWord = (Button) findViewById(R.id.skipButton);
+        skipWord.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                nextWord();
+            }
+        });
+
         Button playWord = (Button) findViewById(R.id.listenButton);
         playWord.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(PracticeActivity.this, currentWord,Toast.LENGTH_SHORT).show();
+                //Toast.makeText(PracticeActivity.this, "",Toast.LENGTH_SHORT).show();
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     speaker.speak(currentWord,TextToSpeech.QUEUE_FLUSH,null,null);
                 } else {
