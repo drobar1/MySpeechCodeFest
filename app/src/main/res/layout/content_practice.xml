@@ -49,7 +49,7 @@
             android:layout_marginBottom="88dp"
             app:layout_constraintTop_toTopOf="@+id/listenButton"
             android:layout_marginRight="32dp"
-            app:layout_constraintVertical_bias="0.12" />
+            app:layout_constraintVertical_bias="0.16" />
 
         <TextView
             android:id="@+id/practiceWord"
@@ -66,7 +66,7 @@
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="76dp"
             tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="@+id/practiceImage" />
@@ -141,7 +141,7 @@
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="56dp"
             tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
