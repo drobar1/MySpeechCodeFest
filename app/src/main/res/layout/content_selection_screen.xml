@@ -21,7 +21,7 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <ToggleButton
                     android:id="@+id/buttonR"
@@ -155,184 +155,232 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "Test"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="Test"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
+
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
+                    android:background="@color/purp"
                     android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
                     android:textSize="60dp" />
 
             </TableRow>
