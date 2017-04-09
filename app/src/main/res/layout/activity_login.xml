@@ -6,29 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.daniel.myspeechcodefest.LoginActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="353dp"
-        android:layout_height="275dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginLeft="49dp"
-        android:layout_marginRight="49dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="16dp"
-        android:alpha="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        app:layout_constraintHorizontal_bias="0.484" />
-
     <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="328dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginRight="28dp"
@@ -46,63 +27,64 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RegisterButton"
+            android:layout_alignBottom="@+id/RegisterButton"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
             android:background="#7dff8800"
             android:text="Login"
             android:textColor="@android:color/background_light"
             android:textSize="17sp"
             android:textStyle="bold"
-            android:layout_marginRight="28dp"
-            android:layout_marginEnd="28dp"
-            android:layout_alignBaseline="@+id/RegisterButton"
-            android:layout_alignBottom="@+id/RegisterButton"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            tools:textAllCaps="false" />
 
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="65dp"
+            android:layout_above="@+id/loginButton"
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_alignStart="@+id/editText4"
+            android:layout_marginBottom="67dp"
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
             android:textColorHighlight="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
-            android:textColorLink="@color/greeeeeeeen"
-            android:layout_above="@+id/loginButton"
-            android:layout_alignLeft="@+id/editText4"
-            android:layout_alignStart="@+id/editText4" />
+            android:textColorLink="@color/greeeeeeeen" />
 
         <EditText
             android:id="@+id/editText4"
             android:layout_width="250dp"
             android:layout_height="40dp"
+            android:layout_above="@+id/etPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:textColorHighlight="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
-            android:textColorLink="@color/greeeeeeeen"
-            android:layout_marginBottom="14dp"
-            android:layout_above="@+id/etPassword"
-            android:layout_centerHorizontal="true" />
+            android:textColorLink="@color/greeeeeeeen" />
 
         <Button
             android:id="@+id/RegisterButton"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_marginBottom="59dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
             android:background="@color/lightORNG"
             android:text="Register"
             android:textColor="@android:color/background_light"
             android:textSize="17sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="28dp"
-            android:layout_marginStart="28dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:textStyle="bold" />
 
 
     </RelativeLayout>

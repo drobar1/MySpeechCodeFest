@@ -29,7 +29,7 @@
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -132,7 +132,7 @@
             android:id="@+id/etCPassword"
             android:layout_width="0dp"
             android:layout_height="45dp"
-            android:layout_marginBottom="73dp"
+            android:layout_marginBottom="98dp"
             android:ems="10"
             android:fontFamily="sans-serif-smallcaps"
             android:hint="Confirm Password"
@@ -155,22 +155,21 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="89dp"
             android:layout_height="52dp"
-            android:layout_marginTop="16dp"
-            android:background="#7dff8800"
+            android:layout_marginTop="29dp"
+            android:background="@color/lightORNG"
             android:elevation="9dp"
             android:text="Done"
             android:textColor="@android:color/background_light"
             android:textColorHint="#d0f095"
             android:textSize="17sp"
             android:textStyle="bold"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintLeft_toLeftOf="@+id/etCPassword"
             app:layout_constraintRight_toRightOf="@+id/etCPassword"
             app:layout_constraintTop_toBottomOf="@+id/etCPassword"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintRight_creator="1"
-            tools:layout_constraintTop_creator="1"
-            tools:layout_editor_absoluteY="512dp" />
+            tools:layout_constraintTop_creator="1" />
 
         <EditText
             android:id="@+id/editText4"

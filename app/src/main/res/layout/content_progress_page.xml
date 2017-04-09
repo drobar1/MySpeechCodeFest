@@ -74,8 +74,9 @@
         android:text="RESTART"
         android:textColor="@color/common_google_signin_btn_text_dark_pressed"
         android:textSize="17sp"
-        tools:layout_editor_absoluteY="373dp"
-        tools:layout_editor_absoluteX="32dp" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="373dp" />
 
     <Button
         android:id="@+id/button3"
@@ -86,7 +87,8 @@
         android:text="Continue"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="17sp"
-        tools:layout_editor_absoluteX="212dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="199dp"
         tools:layout_editor_absoluteY="373dp" />
 
     <TextView
