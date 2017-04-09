@@ -1,6 +1,7 @@
 package com.example.daniel.myspeechcodefest;
 
 import android.app.Activity;
+import android.content.Context;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -14,8 +15,8 @@ import java.io.InputStream;
  */
 
 public class XmlStorageManager extends Activity {
-    public void parseWords() {
-        XmlPullParser parser = getXmlParser("words.xml");
+    public void parseWords(Context appContext) {
+        XmlPullParser parser = getXmlParser("words.xml", appContext);
         try
         {
             int eventType = parser.getEventType();
@@ -54,13 +55,13 @@ public class XmlStorageManager extends Activity {
         }
     }
 
-    private XmlPullParser getXmlParser(String filename){
+    private XmlPullParser getXmlParser(String filename, Context appContext){
         XmlPullParserFactory pullParserFactory;
         try {
             pullParserFactory = XmlPullParserFactory.newInstance();
             XmlPullParser parser = pullParserFactory.newPullParser();
 
-            InputStream in_s = getApplicationContext().getAssets().open(filename);
+            InputStream in_s = appContext.getAssets().open(filename);
             parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
             parser.setInput(in_s, null);
 

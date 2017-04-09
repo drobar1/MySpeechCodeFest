@@ -38,7 +38,7 @@ public class PracticeActivity extends AppCompatActivity{
         WordManager.populateTroubleWords(User.getTroubleSounds());
         numberOfWords = WordManager.troubleWords.size();
         counter = 0;
-        nextImage();
+        nextWord();
 
         speaker = new TextToSpeech(PracticeActivity.this, new TextToSpeech.OnInitListener() {
             @Override
@@ -68,7 +68,7 @@ public class PracticeActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View view) {
-                nextImage();
+                nextWord();
             }
         });
 
@@ -77,7 +77,7 @@ public class PracticeActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), currentWord,Toast.LENGTH_SHORT).show();
+                Toast.makeText(PracticeActivity.this, currentWord,Toast.LENGTH_SHORT).show();
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     speaker.speak(currentWord,TextToSpeech.QUEUE_FLUSH,null,null);
                 } else {
@@ -87,7 +87,7 @@ public class PracticeActivity extends AppCompatActivity{
         });
     }
 
-    private void nextImage(){
+    private void nextWord(){
         if(!WordManager.troubleWords.isEmpty()){
             currentWord = WordManager.troubleWords.get(counter);
 
@@ -98,6 +98,11 @@ public class PracticeActivity extends AppCompatActivity{
             wordImage.setImageResource(getID(WordManager.troubleWords.get(counter)));
 
             counter++;
+            if(counter == WordManager.troubleWords.size()){
+                Intent intent = new Intent(PracticeActivity.this,ProgressPage.class);
+                startActivity(intent);
+            }
+
         }
 
     }

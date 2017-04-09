@@ -39,6 +39,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         editText4 = (EditText) findViewById((R.id.editText4));
         etPassword = (EditText) findViewById(R.id.editText3);
         etRegister.setOnClickListener(this);
+
+        tf5 = Typeface.createFromAsset(getAssets(), "Comfortaa-Bold.ttf");
+
+        etRegister.setTypeface(tf5);
     }
 
     private void registerUser(){
