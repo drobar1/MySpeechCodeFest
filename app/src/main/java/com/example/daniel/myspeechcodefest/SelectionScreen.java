@@ -31,11 +31,14 @@ public class SelectionScreen extends AppCompatActivity {
                 Intent intent = new Intent(SelectionScreen.this,PracticeActivity.class);
                 startActivity(intent);
             }
+
         });
 
 
+
+
         ssMainMenuButton = (Button) findViewById(R.id.ssMainMenuButton);
-        tf3 = Typeface.createFromAsset(getAssets(), "Comfortaa-Bold.ttf");
+        tf3 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
         ssMainMenuButton.setTypeface(tf3);
 
         final Button buttonToPractice = (Button) findViewById(R.id.buttonR);

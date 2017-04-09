@@ -30,6 +30,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="R"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
@@ -44,6 +45,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Ch"
                     android:textColor="@color/common_google_signin_btn_text_dark_pressed"
                     android:textColorLink="@color/drkpurp"
@@ -63,6 +65,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="S"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
@@ -77,6 +80,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
@@ -96,6 +100,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorHighlight="@color/drkpurp"
@@ -111,6 +116,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
@@ -125,11 +131,13 @@
                 android:layout_height="match_parent">
 
                 <ToggleButton
+                    android:id="@+id/toggleButton3"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
@@ -143,6 +151,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
@@ -162,6 +171,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -174,6 +184,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -186,11 +197,13 @@
                 android:layout_height="match_parent" >
 
                 <ToggleButton
+                    android:id="@+id/toggleButton4"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -203,6 +216,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -220,6 +234,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -232,35 +247,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -278,6 +265,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -290,6 +278,39 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
+                    android:textSize="60dp" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton5"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_pressed"
                     android:textOff='R'
@@ -307,6 +328,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -319,35 +341,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -365,6 +359,7 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
@@ -377,6 +372,38 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="H"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='R'
+                    android:textOn="R"
+                    android:textSize="60dp" />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textOff='R'
