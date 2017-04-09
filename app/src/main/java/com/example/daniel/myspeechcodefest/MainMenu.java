@@ -37,7 +37,7 @@ public class MainMenu extends AppCompatActivity {
 
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(MainMenu.this,practice.class);
+                Intent intent = new Intent(MainMenu.this,ProgressPage.class);
                 startActivity(intent);
             }
         });
