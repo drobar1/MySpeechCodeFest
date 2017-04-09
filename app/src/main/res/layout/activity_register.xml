@@ -189,7 +189,6 @@
         android:alpha="60"
         android:orientation="horizontal"
         android:textAlignment="center"
-        app:srcCompat="@drawable/newnew"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         android:layout_marginEnd="17dp"
