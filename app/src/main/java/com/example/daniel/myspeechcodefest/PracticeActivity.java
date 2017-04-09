@@ -71,15 +71,18 @@ public class PracticeActivity extends AppCompatActivity{
     }
 
     private void nextImage(){
-        currentWord = WordManager.troubleWords.get(counter);
+        if(!WordManager.troubleWords.isEmpty()){
+            currentWord = WordManager.troubleWords.get(counter);
 
-        wordText = (TextView) findViewById(R.id.practiceWord);
-        wordText.setText(WordManager.troubleWords.get(counter));
+            wordText = (TextView) findViewById(R.id.practiceWord);
+            wordText.setText(WordManager.troubleWords.get(counter));
 
-        wordImage = (ImageView) findViewById(R.id.practiceImage);
-        wordImage.setImageResource(getID(WordManager.troubleWords.get(counter)));
+            wordImage = (ImageView) findViewById(R.id.practiceImage);
+            wordImage.setImageResource(getID(WordManager.troubleWords.get(counter)));
 
-        counter++;
+            counter++;
+        }
+
     }
 
     private int getID(String word) {

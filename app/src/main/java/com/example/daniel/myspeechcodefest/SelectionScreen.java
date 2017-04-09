@@ -27,7 +27,7 @@ public class SelectionScreen extends AppCompatActivity {
         advanceToMainMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SelectionScreen.this,MainMenu.class);
+                Intent intent = new Intent(SelectionScreen.this,PracticeActivity.class);
                 startActivity(intent);
             }
         });

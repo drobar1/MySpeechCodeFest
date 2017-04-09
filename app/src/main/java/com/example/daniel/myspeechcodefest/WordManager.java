@@ -14,11 +14,14 @@ public class WordManager {
 
     public static void populateTroubleWords(ArrayList<String> troubleSounds){
         troubleWords.clear();
-        for (String soundName : troubleSounds) {
-            for (String word : getWordsWithSound(soundName)) {
-                troubleWords.add(word);
+        if(troubleSounds != null)
+            for (String soundName : troubleSounds) {
+                ArrayList<String> words = getWordsWithSound(soundName);
+                if(words != null)
+                    for (String word : words) {
+                        troubleWords.add(word);
+                    }
             }
-        }
     }
 
     private static ArrayList<String> getWordsWithSound(String soundName){
