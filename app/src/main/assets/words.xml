@@ -1,24 +1,24 @@
 <words>
-	<wordsWithSound sound = "S">
+	<sound name = "S" id = "0">
 		<word>Sun</word>
 		<word>Soup</word>
 		<word>Seed</word>
 		<word>City</word>
 		<word>Sock</word>
-	</wordsWithSound>
-	<wordsWithSound sound = "R">
+	</sound>
+	<sound name = "R" id = "1">
 		<word>Rain</word>
 		<word>Red</word>
 		<word>Read</word>
 		<word>Rabbit</word>
 		<word>Rice</word>
-	</wordsWithSound>
-	<wordsWithSound sound = "Ch">
+	</sound>
+	<sound name = "Ch" id = "2">
 		<word>Cheer</word>
 		<word>Charity</word>
 		<word>Chair</word>
 		<word>Chocolate</word>
 		<word>Chicken</word>
-	</wordsWithSound>
+	</sound>
 </words>
 

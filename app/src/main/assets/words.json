@@ -5,19 +5,19 @@
     { "word":"Seed"},
     { "word":"City"},
     { "word":"Sock"}
-  ]}
+  ]},
   {"R":[
     { "word":"Rain"},
     { "word":"Red"},
     { "word":"Read"},
     { "word":"Rabbit"},
     { "word":"Rice"}
-  ]}
+  ]},
   {"Ch":[
-    { "word":"Sun"},
-    { "word":"Soup"},
-    { "word":"Seed"},
-    { "word":"City"},
-    { "word":"Sock"}
+    { "word":"Cheer"},
+    { "word":"Charity"},
+    { "word":"Chair"},
+    { "word":"Chocolate"},
+    { "word":"Chicken"}
   ]}
 ]}
