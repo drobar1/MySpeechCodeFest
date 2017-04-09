@@ -94,7 +94,6 @@
         android:layout_width="0dp"
         android:layout_height="153dp"
         android:orientation="horizontal"
-        app:srcCompat="@drawable/newnew"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         android:layout_marginStart="56dp"
