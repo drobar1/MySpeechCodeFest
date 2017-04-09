@@ -6,19 +6,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class sun extends AppCompatActivity {
+public class practice extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sun);
+        setContentView(R.layout.practice);
 
         Button button = (Button) findViewById(R.id.RegisterButton);
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sun.this, sound.class);
+                Intent intent = new Intent(practice.this, sound.class);
                 startActivity(intent);
             }
         });
