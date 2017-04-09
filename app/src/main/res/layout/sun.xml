@@ -4,21 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:orientation="vertical">
+    android:orientation="vertical" >
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/Edit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
+        android:layout_weight="0.14"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Sun" />
+        android:text=""
+        android:clickable="true" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sun" />
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:hint="IMAGE"
+        android:gravity="top|left"
+        android:src="@drawable/smallerlogo"
+        android:layout_weight="0.84" />
 
     <Button
         android:id="@+id/NextButton"
