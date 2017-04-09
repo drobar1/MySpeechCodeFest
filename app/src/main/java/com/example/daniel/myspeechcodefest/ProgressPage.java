@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
@@ -32,7 +31,7 @@ public class ProgressPage extends AppCompatActivity {
 
         textView3 = (TextView)findViewById(R.id.textView3);
         textView4 = (TextView)findViewById(R.id.textView4);
-        textView5 = (TextView)findViewById(R.id.textView5);
+        textView5 = (TextView)findViewById(R.id.practiceWord);
 
         tf1 = Typeface.createFromAsset(getAssets(), "Adlanta.otf");
         tf2 = Typeface.createFromAsset(getAssets(), "Adlanta-Light.otf");

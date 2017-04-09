@@ -10,6 +10,7 @@ public class Sound {
     public Sound(int newSoundId, String newSoundName){
         this.id = newSoundId;
         this.name = newSoundName;
+        this.words = new ArrayList<String>();
     }
     private int id;
     private String name;
@@ -24,6 +25,7 @@ public class Sound {
     public void addWord(String newWord){
         this.words.add(newWord);
     }
+    public ArrayList<String> getWords(){return words;}
     public String getName() {
         return name;
     }
