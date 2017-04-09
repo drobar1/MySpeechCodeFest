@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical" >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/button13"
+            style="@android:style/Widget.Button"
+            android:layout_width="168dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/darkgreen"
+            android:text="Help"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/image"
+            tools:layout_editor_absoluteX="200dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="217dp"
+            android:layout_height="72dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="350dp"
+            android:layout_height="308dp"
+            android:layout_weight="0.84"
+            android:gravity="top|left"
+            android:hint="IMAGE"
+            android:src="@drawable/smallerlogo"
+            tools:layout_editor_absoluteX="17dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/helpButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="168dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Help"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/exitButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="168dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Next"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/button13"
+            tools:layout_editor_absoluteX="200dp" />
+
+        <Button
+            android:id="@+id/button"
+            style="@android:style/Widget.Button"
+            android:layout_width="168dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/darkgreen"
+            android:text="Help"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/image"
+            tools:layout_editor_absoluteX="16dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_weight="0.84"
+        android:gravity="top|left"
+        android:hint="IMAGE"
+        android:src="@drawable/smallerlogo"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Help"
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Next"
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp" />
+</LinearLayout>

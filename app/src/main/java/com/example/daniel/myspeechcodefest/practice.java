@@ -11,7 +11,7 @@ public class practice extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.practice);
+        setContentView(R.layout.content_practice);
 
         Button button = (Button) findViewById(R.id.RegisterButton);
         button.setOnClickListener(new View.OnClickListener() {
