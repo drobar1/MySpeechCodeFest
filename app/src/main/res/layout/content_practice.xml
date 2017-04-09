@@ -44,13 +44,13 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="@+id/exitButton"
             tools:layout_constraintLeft_creator="1"
-            android:layout_marginBottom="117dp"
+            android:layout_marginBottom="89dp"
             app:layout_constraintLeft_toLeftOf="@+id/exitButton"
-            app:layout_constraintHorizontal_bias="1.0" />
+            app:layout_constraintHorizontal_bias="0.0" />
 
         <TextView
             android:id="@+id/practiceWord"
-            android:layout_width="290dp"
+            android:layout_width="0dp"
             android:layout_height="128dp"
             android:fontFamily="sans-serif-condensed"
             android:text="City"
@@ -60,22 +60,34 @@
             android:textColor="@color/common_google_signin_btn_text_light_focused"
             android:textSize="100sp"
             android:textStyle="bold"
-            android:layout_marginStart="56dp"
-            android:layout_marginEnd="56dp"
-            tools:layout_editor_absoluteY="145dp"
-            tools:layout_editor_absoluteX="47dp" />
+            android:layout_marginStart="95dp"
+            android:layout_marginEnd="95dp"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toBottomOf="@+id/listenButton"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="93dp"
+            tools:layout_constraintLeft_creator="1"
+            android:layout_marginBottom="98dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/practiceImage"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="95dp" />
 
         <Button
             android:id="@+id/helpButton"
             style="@android:style/Widget.Button"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_marginBottom="35dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="22dp"
             android:background="@color/litepurp"
-            android:text="?"
+            android:text="\?"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -84,17 +96,15 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button"
             app:layout_constraintVertical_bias="0.0"
-            tools:layout_constraintTop_creator="1"
             tools:layout_constraintBottom_creator="1"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp" />
+            tools:layout_constraintTop_creator="1" />
 
         <Button
             android:id="@+id/exitButton"
             style="@android:style/Widget.Button"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_marginBottom="35dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="22dp"
@@ -133,14 +143,14 @@
             tools:layout_constraintBaseline_creator="1" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/practiceImage"
             android:layout_width="154dp"
             android:layout_height="83dp"
             app:srcCompat="@drawable/newnew"
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="79dp"
             tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
