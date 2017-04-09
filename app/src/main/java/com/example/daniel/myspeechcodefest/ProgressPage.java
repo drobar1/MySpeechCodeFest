@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 public class ProgressPage extends AppCompatActivity {
 
-    TextView editText2;
-    Typeface tf1, tf2;
+    TextView textView3, textView4, textView5;
+    Typeface tf1, tf2, tf3, tf4, tf5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +30,19 @@ public class ProgressPage extends AppCompatActivity {
             }
         });
 
-        editText2 = (TextView)findViewById(R.id.editText2);
+        textView3 = (TextView)findViewById(R.id.textView3);
+        textView4 = (TextView)findViewById(R.id.textView4);
+        textView5 = (TextView)findViewById(R.id.textView5);
 
         tf1 = Typeface.createFromAsset(getAssets(), "Adlanta.otf");
         tf2 = Typeface.createFromAsset(getAssets(), "Adlanta-Light.otf");
+        tf3 = Typeface.createFromAsset(getAssets(), "Comfortaa-Bold.ttf");
+        tf4 = Typeface.createFromAsset(getAssets(), "Comfortaa-Regular.ttf");
+        tf5 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
 
-        editText2.setTypeface(tf2);
+        textView5.setTypeface(tf3);
+        textView5.setTypeface(tf3);
+        textView5.setTypeface(tf3);
 
     }
 
