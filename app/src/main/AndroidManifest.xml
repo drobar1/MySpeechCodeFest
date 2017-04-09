@@ -18,13 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".SelectionScreen"
             android:label="@string/title_activity_selection_screen"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MySpeechFace" />
-        <activity android:name=".PracticeActivity" />
+        <activity android:name=".MySpeechFace"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".PracticeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".ProgressPage"
             android:label="@string/title_activity_progress_page"

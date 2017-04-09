@@ -37,7 +37,7 @@
             android:layout_height="40dp"
             android:layout_marginBottom="21dp"
             android:ems="10"
-            android:fontFamily="monospace"
+            android:fontFamily="sans-serif"
             android:hint="Username"
             android:inputType="textPersonName"
             android:paddingBottom="10dp"
@@ -75,7 +75,7 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:ems="10"
-            android:fontFamily="sans-serif-smallcaps"
+            android:fontFamily="sans-serif"
             android:hint="Password"
             android:inputType="textPassword"
             android:paddingBottom="10dp"
@@ -95,7 +95,9 @@
             android:id="@+id/editText3"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
             android:ems="10"
+            android:fontFamily="sans-serif"
             android:hint="Full Name"
             android:inputType="textPersonName"
             android:paddingBottom="10dp"
@@ -109,8 +111,7 @@
             app:layout_constraintRight_toRightOf="@+id/editText4"
             tools:layout_constraintBottom_creator="1"
             tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintRight_creator="1"
-            android:layout_marginBottom="0dp" />
+            tools:layout_constraintRight_creator="1" />
 
         <EditText
             android:id="@+id/etCPassword"
@@ -118,7 +119,7 @@
             android:layout_height="45dp"
             android:layout_marginBottom="98dp"
             android:ems="10"
-            android:fontFamily="sans-serif-smallcaps"
+            android:fontFamily="sans-serif"
             android:hint="Confirm Password"
             android:inputType="textPassword"
             android:paddingBottom="10dp"
@@ -159,7 +160,13 @@
             android:id="@+id/editText4"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
             android:ems="10"
+            android:fontFamily="sans-serif"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:textColorHighlight="@android:color/darker_gray"
@@ -171,12 +178,7 @@
             app:layout_constraintRight_toRightOf="parent"
             tools:layout_constraintBottom_creator="1"
             tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintRight_creator="1"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="6dp" />
+            tools:layout_constraintRight_creator="1" />
 
     </android.support.constraint.ConstraintLayout>
 

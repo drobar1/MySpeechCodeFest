@@ -8,4 +8,6 @@
     <color name="lightORNG">#84ff8800</color>
     <color name="purp">#ebbcf9</color>
     <color name="grey">#919191</color>
+    <color name="drkpurp">#b768ce</color>
+    <color name="litepurp">#e5c9ed</color>
 </resources>
