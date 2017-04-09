@@ -1,6 +1,7 @@
 package com.example.daniel.myspeechcodefest;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -19,12 +20,14 @@ import java.util.Locale;
 
 public class PracticeActivity extends AppCompatActivity{
 
-    TextView wordText;
+    TextView wordText, practiceWord;
+    Typeface tf2;
     int counter;
     int numberOfWords;
     String currentWord;
     ImageView wordImage;
     TextToSpeech speaker;
+    Button nextButton, button, helpButton, exitButton, listenButton;
 
 
     @Override
@@ -45,6 +48,20 @@ public class PracticeActivity extends AppCompatActivity{
                 }
             }
         });
+
+        button = (Button)findViewById(R.id.button);
+        listenButton = (Button)findViewById(R.id.listenButton);
+        exitButton = (Button)findViewById(R.id.exitButton);
+        nextButton = (Button)findViewById(R.id.nextButton);
+        helpButton = (Button) findViewById(R.id.helpButton);
+        practiceWord = (TextView)findViewById((R.id.practiceWord));
+        tf2 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
+        practiceWord.setTypeface(tf2);
+        button.setTypeface(tf2);
+        exitButton.setTypeface(tf2);
+        nextButton.setTypeface(tf2);
+        helpButton.setTypeface(tf2);
+        listenButton.setTypeface(tf2);
 
         Button nextWord = (Button) findViewById(R.id.nextButton);
         nextWord.setOnClickListener(new View.OnClickListener() {
