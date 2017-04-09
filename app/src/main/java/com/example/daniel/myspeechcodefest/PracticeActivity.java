@@ -103,8 +103,8 @@ public class PracticeActivity extends AppCompatActivity{
             wordText = (TextView) findViewById(R.id.practiceWord);
             wordText.setText(WordManager.troubleWords.get(counter));
 
-            wordImage = (ImageView) findViewById(R.id.practiceImage);
-            wordImage.setImageResource(getID(WordManager.troubleWords.get(counter)));
+            //wordImage = (ImageView) findViewById(R.id.practiceImage);
+            //wordImage.setImageResource(getID(WordManager.troubleWords.get(counter)));
 
             counter++;
             if(counter == WordManager.troubleWords.size()){
