@@ -62,14 +62,14 @@
                     android:textSize="60dp" />
 
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
+                    android:textOn = "Z"
+                    android:textOff = 'Z'
                     android:id="@+id/buttonH"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
-                    android:text="H"
+                    android:text="Z"
                     android:textSize="60dp" />
             </TableRow>
 
@@ -82,9 +82,9 @@
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
-                    android:text="H"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:text="L"
+                    android:textOff='L'
+                    android:textOn="L"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -92,9 +92,9 @@
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
-                    android:text="H"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:text="Sh"
+                    android:textOff='Sh'
+                    android:textOn="Sh"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -103,17 +103,178 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
+                    android:textOn = "F"
+                    android:textOff = 'F'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
-                    android:text="H"
+                    android:text="F"
                     android:textSize="60dp" />
                 <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
+                    android:textOn = "V"
+                    android:textOff = 'V'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="V"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "K"
+                    android:textOff = 'K'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="K"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "G"
+                    android:textOff = 'G'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="G"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "B"
+                    android:textOff = 'B'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="B"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "P"
+                    android:textOff = 'P'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="P"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "T"
+                    android:textOff = 'T'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="T"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "D"
+                    android:textOff = 'D'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="D"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "J"
+                    android:textOff = 'J'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="J"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "Zh"
+                    android:textOff = 'Zh'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="Zh"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "Ng"
+                    android:textOff = 'Ng'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="Ng"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "N"
+                    android:textOff = 'N'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="N"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "M"
+                    android:textOff = 'M'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="M"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "W"
+                    android:textOff = 'W'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="W"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ToggleButton
+                    android:textOn = "Y"
+                    android:textOff = 'Y'
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="Y"
+                    android:textSize="60dp" />
+                <ToggleButton
+                    android:textOn = "H"
+                    android:textOff = 'H'
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="15dp"
@@ -125,185 +286,7 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
 
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "Test"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
-                <ToggleButton
-                    android:textOn = "R"
-                    android:textOff = 'R'
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:text="H"
-                    android:textSize="60dp" />
 
             </TableRow>
         </TableLayout>
