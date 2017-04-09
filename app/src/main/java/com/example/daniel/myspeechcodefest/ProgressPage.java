@@ -6,12 +6,14 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 public class ProgressPage extends AppCompatActivity {
 
     TextView textView3, textView4, textView5;
     Typeface tf1, tf2, tf3, tf4, tf5;
+    RatingBar ratingBar, ratingBar2, ratingBar3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,10 @@ public class ProgressPage extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        ratingBar.setRating(4);
+        ratingBar2.setRating(2);
+        ratingBar3.setRating(1);
 
         textView3 = (TextView)findViewById(R.id.textView3);
         textView4 = (TextView)findViewById(R.id.textView4);
