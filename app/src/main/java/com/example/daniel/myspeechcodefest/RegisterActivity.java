@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button etRegister;
-    private EditText editText4, editText3;
+    private EditText editText4, etPassword;
     private ProgressDialog progressNote;
     private FirebaseAuth auth;
 
@@ -36,13 +36,13 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         progressNote = new ProgressDialog(this);
         etRegister = (Button)findViewById(R.id.etRegister);
         editText4 = (EditText) findViewById((R.id.editText4));
-        editText3 = (EditText) findViewById(R.id.editText3);
+        etPassword = (EditText) findViewById(R.id.editText3);
         etRegister.setOnClickListener(this);
     }
 
     private void registerUser(){
         String email = editText4.getText().toString().trim();
-        String password = editText3.getText().toString().trim();
+        String password = etPassword.getText().toString().trim();
         if(TextUtils.isEmpty(email)){
             //Email is empty
             Toast.makeText(this, "Please enter a email", Toast.LENGTH_SHORT).show();
