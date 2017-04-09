@@ -1,10 +1,6 @@
 package com.example.daniel.myspeechcodefest;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.TextView;
-import android.content.Context;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -12,9 +8,6 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-
-import static com.example.daniel.myspeechcodefest.R.id.textView;
 
 /**
  * Created by Ian on 4/8/2017.
