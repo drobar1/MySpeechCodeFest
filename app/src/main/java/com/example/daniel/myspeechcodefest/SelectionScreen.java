@@ -62,5 +62,13 @@ public class SelectionScreen extends AppCompatActivity {
                 buttonToPractice3.setBackgroundColor(Color.BLUE);
             }
         });
+        final Button buttonToPractice4 = (Button) findViewById(R.id.buttonS);
+        buttonToPractice3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+
+                buttonToPractice3.setBackgroundColor(Color.BLUE);
+            }
+        });
     }
 }

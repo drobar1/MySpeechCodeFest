@@ -137,7 +137,6 @@
             android:id="@+id/practiceImage"
             android:layout_width="154dp"
             android:layout_height="83dp"
-            app:srcCompat="@drawable/newnew"
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"

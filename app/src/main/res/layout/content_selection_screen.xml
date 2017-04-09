@@ -77,11 +77,11 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="Z"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='Z'
+                    android:textOn="Z"
                     android:textSize="60dp" />
             </TableRow>
 
@@ -96,12 +96,12 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="Sh"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorHighlight="@color/drkpurp"
                     android:textColorLink="@color/drkpurp"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='Sh'
+                    android:textOn="Sh"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -111,11 +111,11 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="Th"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='Th'
+                    android:textOn="Th"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -130,11 +130,11 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="F"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='F'
+                    android:textOn="F"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -143,11 +143,11 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="V"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
                     android:textColorLink="@color/drkpurp"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='V'
+                    android:textOn="V"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -162,10 +162,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="K"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='K'
+                    android:textOn="K"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -174,39 +174,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="G"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="Test"
+                    android:textOff='G'
+                    android:textOn="G"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -220,10 +191,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="B"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='B'
+                    android:textOn="B"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -232,39 +203,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="P"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='P'
+                    android:textOn="P"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -278,10 +220,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="T"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='T'
+                    android:textOn="T"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -290,10 +232,68 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="D"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='D'
+                    android:textOn="D"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:text="J"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='J'
+                    android:textOn="J"
+                    android:textSize="60dp" />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:text="Zh"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='Zh'
+                    android:textOn="Zh"
+                    android:textSize="60dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:text="Ng"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textOff='Ng'
+                    android:textOn="Ng"
+                    android:textSize="60dp" />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/purp"
+                    android:text="N"
                     android:textColor="@color/common_google_signin_btn_text_dark_pressed"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='N'
+                    android:textOn="N"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -307,10 +307,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="M"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='M'
+                    android:textOn="M"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -319,10 +319,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="W"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='W'
+                    android:textOn="W"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -336,10 +336,10 @@
                     android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="@color/purp"
-                    android:text="H"
+                    android:text="Y"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='Y'
+                    android:textOn="Y"
                     android:textSize="60dp" />
 
                 <ToggleButton
@@ -350,8 +350,8 @@
                     android:background="@color/purp"
                     android:text="H"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
+                    android:textOff='H'
+                    android:textOn="H"
                     android:textSize="60dp" />
 
             </TableRow>
@@ -359,29 +359,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
-
-                <ToggleButton
-                    android:layout_width="0dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:background="@color/purp"
-                    android:text="H"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:textOff='R'
-                    android:textOn="R"
-                    android:textSize="60dp" />
 
             </TableRow>
         </TableLayout>
