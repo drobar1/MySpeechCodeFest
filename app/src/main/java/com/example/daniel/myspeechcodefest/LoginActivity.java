@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class LoginActivity extends AppCompatActivity
 {
 
-    TextView etEmail, etPassword, textView6;
+    TextView editText4, etPassword, textView6;
     Typeface tf1, tf2, tf3, tf4, tf5;
     Button RegisterButton, loginButton;
 
@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity
         loginButton = (Button) findViewById(R.id.loginButton);
 
 
-        etEmail = (TextView)findViewById((R.id.editText4));
+        editText4 = (TextView)findViewById((R.id.editText4));
         etPassword = (TextView)findViewById(R.id.etPassword);
         textView6 = (TextView)findViewById(R.id.textView6);
 
@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity
         tf5 = Typeface.createFromAsset(getAssets(), "Comfortaa-Light.ttf");
 
 
-        etEmail.setTypeface(tf5);
+        editText4.setTypeface(tf5);
         etPassword.setTypeface(tf5);
         RegisterButton.setTypeface(tf3);
         loginButton.setTypeface(tf3);
